@@ -1,0 +1,41 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3, .colour_info{
+    border: 1rem;
+    border-radius: 1rem;
+    border-color: black;
+}
+
+.btn{
+    border: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border-color: black;
+    cursor: pointer;
+}
+  
+.colour_info {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+  
+.colour-name {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    background-color: #f1f1f1;
+    border-radius: 0.25rem;
+}
+  
